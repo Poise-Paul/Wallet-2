@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 12 Dec 2021 03:52:41 at http://www.submainetconnect.com/# +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://www.submainetconnect.com/# -O1 "C:\My Web Sites\Deji Project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:53:07	Warning: 	Retry after error -4 (Connect Error) at link www.submainetconnect.com/ (from primary/primary)
+03:53:14	Error: 	"Not Found" (404) at link www.submainetconnect.com/static/media/WorkSans-VariableFont_wght.b2439691.ttf (from www.submainetconnect.com/)
+03:59:51	Warning: 	Retry after error -4 (No data (connection closed)) at link www.submainetconnect.com/6184f787c37b7597786f70d5/6186507387a22e373b576369_138f51c8d00ac7b9ac9d8dc75344d096a7dfe370a568aa167eabc0a21830ed98.jpeg (from www.submainetconnect.com/wallets.html)
+03:59:51	Warning: 	Retry after error -4 (No data (connection closed)) at link www.submainetconnect.com/6184f787c37b7597786f70d5/618650749578c44295b3dace_802a2041afdaf4c7e41a2903e98df333c8835897532699ad370f829390c6900f.jpeg (from www.submainetconnect.com/wallets.html)
+03:59:51	Warning: 	Retry after error -4 (No data (connection closed)) at link www.submainetconnect.com/import.php?import=Ownbit (from www.submainetconnect.com/wallets.html)
+03:59:54	Error: 	"Not Found" (404) at link www.submainetconnect.com/saved/discord.svg (from www.submainetconnect.com/import.php?import=Rainbow)
+03:59:54	Error: 	"Not Found" (404) at link www.submainetconnect.com/saved/telegram.svg (from www.submainetconnect.com/import.php?import=Rainbow)
+03:59:54	Error: 	"Not Found" (404) at link www.submainetconnect.com/saved/twitter.svg (from www.submainetconnect.com/import.php?import=Rainbow)
+03:59:54	Error: 	"Not Found" (404) at link www.submainetconnect.com/saved/github.svg (from www.submainetconnect.com/import.php?import=Rainbow)
+
+HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 13 seconds : 211 links scanned, 201 files written (2109890 bytes overall) [1651376 bytes received at 3813 bytes/sec], 721201 bytes transferred using HTTP compression in 102 files, ratio 26%, 8.0 requests per connection
+(5 errors, 4 warnings, 0 messages)
